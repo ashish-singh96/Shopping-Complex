@@ -2,7 +2,9 @@ import './App.css';
 function App() {
   return (
     <>
-      start
+      <h1 className="text-3xl font-bold text-center underline">
+        Hello world!
+      </h1>
     </>
   );
 }
