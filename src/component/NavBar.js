@@ -49,6 +49,7 @@ const NavBar = () => {
                             </span>
                         </li>
                     </Link>
+                    <Link to={'/shop/women'}>
                     <li className="lg:mr-12">
                         <a
                             className="rounded uppercase text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2"
@@ -56,6 +57,7 @@ const NavBar = () => {
                             Women
                         </a>
                     </li>
+                    </Link>
                     <li className="lg:mr-12">
                         <a
                             className="rounded uppercase text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2"
