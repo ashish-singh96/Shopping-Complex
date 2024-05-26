@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { FaPlus, FaMinus } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 const S = () => {
     const [openSections, setOpenSections] = useState({});
 
@@ -100,13 +101,20 @@ const S = () => {
                     <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
                         {products.map((product) => (
                             <div key={product.id} className="group relative">
-                                <div className="aspect-h-1 aspect-w-1 w-full rounded-md bg-gray-200 lg:h-auto">
+                                <div className="relative aspect-h-1 aspect-w-1 w-full rounded-md bg-gray-200 lg:h-auto group">
                                     <img
                                         src={product.imageSrc}
                                         alt={product.imageAlt}
                                         className="h-full w-full object-cover lg:h-full lg:w-full"
                                     />
+                                    <Link to={'/show-one-item'}>
+                                    <button className="absolute inset-x-0 bottom-0 opacity-0 group-hover:opacity-100 bg-white font-medium py-2 px-4  w-full text-blue-400">
+                                        Quick View
+                                    </button>
+                                    </Link>
                                 </div>
+
+
 
                                 <div className="mt-4 flex flex-col items-center">
                                     <div>
