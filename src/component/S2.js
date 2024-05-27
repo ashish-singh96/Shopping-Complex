@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { FaPlus, FaMinus } from "react-icons/fa6";
 const S2 = () => {
     const [openSections, setOpenSections] = useState({});
- 
+
 
     const handleToggle = (section) => {
         setOpenSections((prevState) => ({
@@ -17,7 +17,11 @@ const S2 = () => {
         { title: 'Category', items: ['Sarees (133,468)', 'Shirts', 'Tops & Tunics (71,317)', ' Kurtas & Kurtis (56,276)', 'Earrings (56,117)', 'Dresses (55,624)'] },
         { title: 'Price', items: ['Below Rs.500 (164,840)', 'Rs.500-1000 (330,068)', 'Rs.1001-1500 (173,061)', 'Rs.1501-2000 (90,020)', 'Rs.2001-2500 (44,395)'] },
         { title: 'Brands', items: ['14 FAB (273)', '250 DESIGNS (217)', '3buddy Fashion (108)', '3I (109)', '4U FASHION (81)'] },
-        { title: 'Occasion', items: ['Active (25,216)', 'ACTIVE (55)', 'Casual (582,209)', 'CASUAL (1,265)', 'Evening (30,495)'] }
+        { title: 'Occasion', items: ['Active (25,216)', 'ACTIVE (55)', 'Casual (582,209)', 'CASUAL (1,265)', 'Evening (30,495)'] },
+        {title: 'Discount', items: ['0-20% (168,093)', ' 21-30% (48,825)', '31-40% (61,450)',  ' 41-50% (123,841)', '51-80% (478,449)']},
+        { title: 'Colors', items: ['Aqua (1)', 'Black (2)', 'Blue (3)', 'Charcoal (1)', 'Green (1)', 'Pink (5)'] },
+        { title: 'Size & Fit', items: ['M (7)', 'XL (10)', 'XXL (5)', 'L (6)', 'S (12)',] },
+        {title : 'Rating', items:[]},
     ]
 
     return (
