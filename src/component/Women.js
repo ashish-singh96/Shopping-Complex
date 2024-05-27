@@ -7,29 +7,28 @@ const Women = () => {
         <div className='pt-[66px]'>
 
 
-            <Carousel autoPlay infiniteLoop showThumbs={false} showArrows={false} showStatus={false} showIndicators={false}>
-                <Link>
+            <Carousel autoPlay infiniteLoop showThumbs={true} showArrows={false} showStatus={false} showIndicators={false}>
+                <Link to={'/s/50-to-80-percent-off-5427-63681'}>
                 <div>
-                    <img src="../Images/D-1.0-MHP-16052024-mainbanner-z1-p1-iconicsale-4080.jpg" />
+                    <img src="../Images/D-1.0-WHP-010524-mainBanner-1-iconicsale-golive.avif" />
                 </div>
                 </Link>
                 <div>
-                    <img src="../Images/D-1.0-MHP-25052024-mainbanner-z1-p2-BULLMER-WUXI-MIN72.avif" />
+                    <img src="../Images/D-1.0-WHP-260524-MAINBANNER-Z1-P2-MISSPLAYERS-RIO-MIN30.avif" />
 
                 </div>
                 <div>
-                    <img src="../Images/D-1.0-MHP-25052024-mainbanner-z1-p3-SUPERDRY-GAP-UPTO50.avif" />
-
-                </div>
-
-                <div>
-                    <img src="../Images/d-1.0-MHP-25052024-mainbanner-z1-p7-titan-tommyhilfiger-upto50.webp" />
+                    <img src="../Images/D-1.0-WHP-260524-MAINBANNER-Z1-P3-RITUKUMAR-FOREVERNEW-UPTO50.avif" />
 
                 </div>
 
                 <div>
-                    <img src="../Images/D-1.0-MHP-25052024-mainbanner-z1-p4-Mufti-Spykar-upto60.avif" />
+                    <img src="../Images/D-1.0-WHP-260524-MAINBANNER-Z1-P6-LEVIS-ONLY-MIN40.jpg" />
 
+                </div>
+
+                <div>
+                    <img src="../Images/D-1.0-WHP-260524-MAINBANNER-Z1-P7-NIKE-adidas-UPTO40.avif" />
                 </div>
 
 

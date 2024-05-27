@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FaPlus, FaMinus } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
-const S = () => {
+const S1 = () => {
     const [openSections, setOpenSections] = useState({});
 
     const handleToggle = (section) => {
@@ -134,9 +134,10 @@ const S = () => {
                     </div>
                 </div>
             </div>
+            
         </div>
 
     )
 }
 
-export default S
+export default S1
