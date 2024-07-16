@@ -96,12 +96,14 @@ const NavBar = () => {
                 <hr className="mt-4 w-full lg:hidden" />
                 <div className="bg-white mx-6 flex rounded-full border max-w-md items-center mr-10">
                     <img src='../Images/wishlistIcon.svg' alt='wishlistIcon' className="mr-4 cursor-pointer" /> {/* Add margin-right */}
-                    <button
+                   <Link to={'/cart'}>
+                   <button
                         type="button"
                         className="bg-[#2C4152] text-white text-lg rounded-full px-2 py-2"
                     >
                         <FaBagShopping />
                     </button>
+                   </Link>
                 </div>
 
             </nav>
