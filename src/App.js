@@ -11,10 +11,12 @@ import Cart from './component/Cart';
 import DashBoard from './Admin/DashBoard';
 import PublicRoute from './component/Protected Routing/PublicRoute';
 import PrivateRoute from './component/Protected Routing/PrivateRoute';
+import Product from './component/Product';
 function App() {
   return (
     <>
       <NavBar />
+     
       <Routes>
         <Route path='/' element={<PublicRoute />}>
           <Route path='/' element={<Home />} />
@@ -25,11 +27,11 @@ function App() {
           <Route path='/show-one-item' element={<OneItem />} />
           <Route path='/cart' element={<Cart />} />
         </Route>
-        <Route path='/dashboard' element={<PrivateRoute />}>
+        {/* <Route path='/dashboard' element={<PrivateRoute />}>
           <Route path='/admin/dashboard' element={<DashBoard />} />
-        </Route>
+        </Route> */}
       </Routes>
-
+      <Product/>
     </>
   );
 }
